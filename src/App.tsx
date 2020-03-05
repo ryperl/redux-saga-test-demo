@@ -1,12 +1,8 @@
-import React from 'react';
-import './App.css';
+import React, { ReactElement } from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      The App!!
-    </div>
-  );
+function App(): ReactElement {
+  return <div className="App">The App!!</div>;
 }
 
 export default App;
